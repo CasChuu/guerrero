@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Gentle Monster</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link me-2" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link me-2" href="#products">Products</a></li> 
+                <li class="nav-item"><a class="nav-link me-2" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>                
+        </div>
+    </div>
+</nav>
+
+        <!-- About Section with Background -->
+        <section id="home" class="about-section d-flex align-items-center text-white">
+    <div class="container text-center">
+        <h1 class="fw-bold">Gentle Monster</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="lead">
+            Future Meets Fashion
+        </p>
+        <br>
+        <p class="lead">
+           Step into the world of Gentle Monster — where every piece is a work of art.
+           <br>
+           Designed for the bold. Made for the discerning.
+        </p>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section class="container mt-5" id="products">
+    <h2 class="text-center fw-bold fs-1.5" style="color: rgb(244, 242, 242);">Our Products</h2>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="ma1 (2).png" class="product-img" alt="Donut Bun BR3">
+            <h3>KUN - 0001 01</h3>
+            <p>$ 460</p>
+            <a href="product.html?product=1" class="btn btn-beige">View</a>
+        </div>
+        <div class="product-card">
+            <img src="gmc-1.png" class="product-img" alt="Cheveux De Nini P7">
+            <h3>Cheveux De Nini P7</h3>
+            <p>$ 360</p>
+            <a href="product.html?product=2" class="btn btn-beige">View</a>
+        </div>
+        <div class="product-card">
+            <img src="gmcv-1.png" class="product-img" alt="D’heygere - Pierced 02">
+            <h3>D’heygere - Pierced 02</h3>
+            <p>$ 380</p>
+            <a href="product.html?product=3" class="btn btn-beige">View</a>
+        </div>
+    </div>
+</section>
+    
+<!-- More Products Button -->
+<div class="text-end btn-more-wrapper" style="margin-left: 30px;">
+    <a href="more-products.html" class="btn btn-beige">More</a>
+</div>
+
+<!-- About Section -->
+<header id="about" class="hero-section about-hero text-center">
+    <div class="container">
+        <h1 class="about-title text-center fw-bold fs-1" style="color: rgb(255, 255, 255);">About</h1>
+    </div>
+</header>
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-6"> 
+            <div class="d-flex justify-content-start">
+                <img src="jennie.jpg" class="img-thumbnail apple-img" alt="Cinque Terre" width="350" height="236">
+            </div>
+        </div>
+        <div class="col-md-6"> 
+            <!-- About Text Content -->
+            <div class="card about-card">
+                <div class="card-body">
+                    <h5 class="card-title">Gentle Monster</h5>
+                    <br>
+                    <p class="card-text">
+                       Founded in Seoul in 2011, Gentle Monster was created with a singular vision: to revolutionize eyewear through bold design and artistic innovation.
+
+Blending art, technology, and fashion, each piece is more than just eyewear — it’s a statement. From immersive store experiences to global collaborations with icons like Maison Margiela and Jennie of BLACKPINK, Gentle Monster continues to redefine what modern eyewear looks like.
+
+At Gentle Monster, we’re proud to share this vision — bringing you eyewear that challenges the norm and inspires a new way of seeing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <div class="card shadow">
+        <div class="card-body">
+            <h2 class="text-center">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-1">Contact Us</p>
+        <p class="mb-1">
+            <i class="bi bi-envelope"></i> Email: 
+            <a href="mailto:yourmail@gmail.com" class="text-white text-decoration-none">cs@gentlemonster.com</a>
+        </p>
+        <p class="mb-1">
+            <i class="bi bi-instagram"></i> Instagram: 
+            <a href="https://www.instagram.com/gentlemonster?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white text-decoration-none" target="_blank">@gentlemonster</a>
+        </p>
+        <p>
+            <i class="bi bi-telephone"></i> Contact: 
+            <a href="tel:+1234567890" class="text-white text-decoration-none">+1-213-935-8114</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</body>
+</html>
